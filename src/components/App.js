@@ -18,7 +18,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 const App = () => {
 	return (
-		<Router>
+		<Router basename={process.env.PUBLIC_URL}>
 			<Switch>
 				{/* About Page Start */}
 				<Route path="/about">
