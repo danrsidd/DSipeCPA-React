@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/tax-prep.jpg";
-import Footer from "../ind_components/Footer";
 
 const TaxPreparation = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="Tax Preparation Services"
 				description={
@@ -52,7 +49,6 @@ const TaxPreparation = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/new-business.jpeg";
-import Footer from "../ind_components/Footer";
 
 const NewBusiness = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="New Business Set-Up"
 				description={
@@ -84,7 +81,6 @@ const NewBusiness = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

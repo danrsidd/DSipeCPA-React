@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/payroll.jpeg";
-import Footer from "../ind_components/Footer";
 
 const Payroll = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="Payroll Services"
 				description={
@@ -43,7 +40,6 @@ const Payroll = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

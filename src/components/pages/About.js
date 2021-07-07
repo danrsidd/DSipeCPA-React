@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/office.jpeg";
-import Footer from "../ind_components/Footer";
 
 const About = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="About Us"
 				description={
@@ -29,7 +26,6 @@ const About = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

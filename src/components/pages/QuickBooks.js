@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/quickbooks.jpeg";
-import Footer from "../ind_components/Footer";
 
 const QuickBooks = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="QuickBooks Services"
 				description={
@@ -50,7 +47,6 @@ const QuickBooks = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

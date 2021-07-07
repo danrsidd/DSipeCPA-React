@@ -1,14 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "../ind_components/Nav";
 import callUs from "../../assets/images/callUs.png";
 import emailUs from "../../assets/images/emailUs.png";
-import Footer from "../ind_components/Footer";
 
 const Contact = () => {
 	return (
 		<>
-			<Nav />
 			<div className="contact-parent">
 				<div className="contact-img-container">
 					<div className="contact-buttons-container">
@@ -55,7 +52,6 @@ const Contact = () => {
 					</Link>
 				</div>
 			</div>
-			<Footer />
 		</>
 	);
 };

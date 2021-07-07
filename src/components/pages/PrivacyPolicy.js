@@ -1,11 +1,8 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
-import Footer from "../ind_components/Footer";
 
 const PrivacyPolicy = () => {
 	return (
 		<>
-			<Nav />
 			<div className="privacy-container">
 				<h1>Privacy Policy</h1>
 				<h2>Website Visitors</h2>
@@ -50,7 +47,6 @@ const PrivacyPolicy = () => {
 					will constitute your acceptance of such change.
 				</p>
 			</div>
-			<Footer />
 		</>
 	);
 };

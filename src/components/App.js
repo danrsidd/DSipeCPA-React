@@ -1,5 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Nav from "./ind_components/Nav";
+import Footer from "./ind_components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Error from "./pages/Error";
@@ -15,10 +17,13 @@ import TaxPreparation from "./pages/TaxPreparation";
 import Contact from "./pages/Contact";
 import Sitemap from "./pages/Sitemap";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ScrollToTop from "./ind_components/ScrollToTop";
 
 const App = () => {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
+			<ScrollToTop />
+			<Nav />
 			<Switch>
 				{/* About Page Start */}
 				<Route path="/about">
@@ -82,6 +87,7 @@ const App = () => {
 				</Route>
 				{/* 404 Page End */}
 			</Switch>
+			<Footer />
 		</Router>
 	);
 };

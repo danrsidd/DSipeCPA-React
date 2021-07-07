@@ -1,13 +1,10 @@
 import React from "react";
-import Nav from "../ind_components/Nav";
 import Article from "../ind_components/Article";
 import officeImg from "../../assets/images/nonprofit.jpeg";
-import Footer from "../ind_components/Footer";
 
 const NonProfit = () => {
 	return (
 		<>
-			<Nav />
 			<Article
 				title="Non-Profit Set-Up"
 				description={
@@ -54,7 +51,6 @@ const NonProfit = () => {
 				}
 				imgSrc={officeImg}
 			/>
-			<Footer />
 		</>
 	);
 };

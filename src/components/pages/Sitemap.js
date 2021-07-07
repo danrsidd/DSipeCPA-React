@@ -1,12 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Nav from "../ind_components/Nav";
-import Footer from "../ind_components/Footer";
 
 const Sitemap = () => {
 	return (
 		<>
-			<Nav />
 			<div className="sitemap-container">
 				<h1>Sitemap</h1>
 				<ul>
@@ -51,7 +48,6 @@ const Sitemap = () => {
 					</Link>
 				</ul>
 			</div>
-			<Footer />
 		</>
 	);
 };
