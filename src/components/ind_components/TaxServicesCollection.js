@@ -11,7 +11,10 @@ const TaxServicesCollection = () => {
 					<Link to="/tax-planning" className="highlight-card-link">
 						<HighlightCard title="Tax Planning" />
 					</Link>
-					<Link to="/tax-preparation" className="highlight-card-link">
+					<Link
+						to="/tax-preparation-2"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="Tax Preparation" />
 					</Link>
 				</div>

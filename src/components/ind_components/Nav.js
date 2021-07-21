@@ -28,13 +28,13 @@ const Nav = () => {
 					id="navbarNavAltMarkup"
 				>
 					<div className="navbar-nav ms-auto">
-						<Link className="nav-link" to="/about">
+						<Link className="nav-link" to="/about-the-company">
 							About
 						</Link>
-						<Link className="nav-link" to="/accounting">
+						<Link className="nav-link" to="/accounting-services">
 							Accounting Services
 						</Link>
-						<Link className="nav-link" to="/tax">
+						<Link className="nav-link" to="/tax-services">
 							Tax Services
 						</Link>
 						<Link to="/contact">

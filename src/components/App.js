@@ -22,11 +22,11 @@ import ScrollToTop from "./ind_components/ScrollToTop";
 const App = () => {
 	return (
 		<Router basename={process.env.PUBLIC_URL}>
-			<ScrollToTop />
 			<Nav />
+			<ScrollToTop />
 			<Switch>
 				{/* About Page Start */}
-				<Route path="/about">
+				<Route path="/about-the-company">
 					<About />
 				</Route>
 				{/* About Page End */}
@@ -49,19 +49,19 @@ const App = () => {
 				<Route path="/bookkeeping">
 					<Bookkeeping />
 				</Route>
-				<Route path="/payroll">
+				<Route path="/payroll-services">
 					<Payroll />
 				</Route>
-				<Route path="/new-business">
+				<Route path="/new-business-set-up">
 					<NewBusiness />
 				</Route>
-				<Route path="/non-profit">
+				<Route path="/non-profit-set-up">
 					<NonProfit />
 				</Route>
-				<Route path="/quickbooks">
+				<Route path="/quick-books-services">
 					<QuickBooks />
 				</Route>
-				<Route path="/accounting">
+				<Route path="/accounting-services">
 					<AccountingServices />
 				</Route>
 				{/* Accounting Services End */}
@@ -69,10 +69,10 @@ const App = () => {
 				<Route path="/tax-planning">
 					<TaxPlanning />
 				</Route>
-				<Route path="/tax-preparation">
+				<Route path="/tax-preparation-2">
 					<TaxPreparation />
 				</Route>
-				<Route path="/tax">
+				<Route path="/tax-services">
 					<TaxServices />
 				</Route>
 				{/* Tax Services End */}

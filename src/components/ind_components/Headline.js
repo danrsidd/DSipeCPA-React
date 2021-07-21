@@ -8,7 +8,7 @@ const Headline = (props) => {
 				<div className="col-xl-7 headline-text">
 					<h1>{props.title}</h1>
 					<p>{props.description}</p>
-					<Link to="/about">
+					<Link to="/about-the-company">
 						<button className="btn btn-dark">About</button>
 					</Link>
 					<Link to="/contact">

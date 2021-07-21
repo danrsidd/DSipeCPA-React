@@ -11,22 +11,37 @@ const Highlights = () => {
 					<Link to="/tax-planning" className="highlight-card-link">
 						<HighlightCard title="Tax Planning" />
 					</Link>
-					<Link to="/tax-preparation" className="highlight-card-link">
+					<Link
+						to="/tax-preparation-2"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="Tax Preparation" />
 					</Link>
 					<Link to="/bookkeeping" className="highlight-card-link">
 						<HighlightCard title="Bookkeeping" />
 					</Link>
-					<Link to="/payroll" className="highlight-card-link">
+					<Link
+						to="/payroll-services"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="Payroll Services" />
 					</Link>
-					<Link to="/new-business" className="highlight-card-link">
+					<Link
+						to="/new-business-set-up"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="New Business Set-Up" />
 					</Link>
-					<Link to="/non-profit" className="highlight-card-link">
+					<Link
+						to="/non-profit-set-up"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="Non-Profit Set-Up" />
 					</Link>
-					<Link to="/quickbooks" className="highlight-card-link">
+					<Link
+						to="/quick-books-services"
+						className="highlight-card-link"
+					>
 						<HighlightCard title="QuickBooks Services" />
 					</Link>
 					<Link to="/contact" className="highlight-card-link">

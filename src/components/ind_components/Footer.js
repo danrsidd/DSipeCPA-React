@@ -41,7 +41,7 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to="/tax-preparation">
+								<Link to="/tax-preparation-2">
 									<a class="quick-links">Tax Preparation</a>
 								</Link>
 							</li>
@@ -51,24 +51,24 @@ const Footer = () => {
 								</Link>
 							</li>
 							<li>
-								<Link to="/payroll">
+								<Link to="/payroll-services">
 									<a class="quick-links">Payroll Services</a>
 								</Link>
 							</li>
 							<li>
-								<Link to="/new-business">
+								<Link to="/new-business-set-up">
 									<a class="quick-links">
 										New Business Set-Up
 									</a>
 								</Link>
 							</li>
 							<li>
-								<Link to="/non-profit">
+								<Link to="/non-profit-set-up">
 									<a class="quick-links">Non-Profit Set-Up</a>
 								</Link>
 							</li>
 							<li>
-								<Link to="/quickbooks">
+								<Link to="/quick-books-services">
 									<a class="quick-links">
 										QuickBooks Services
 									</a>
@@ -82,7 +82,7 @@ const Footer = () => {
 						</p>
 						<ul>
 							<li>
-								<Link to="/about">
+								<Link to="/about-the-company">
 									<a class="quick-links">About</a>
 								</Link>
 							</li>
