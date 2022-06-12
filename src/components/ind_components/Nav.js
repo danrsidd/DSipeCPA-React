@@ -37,6 +37,18 @@ const Nav = () => {
 						<Link className="nav-link" to="/tax-services">
 							Tax Services
 						</Link>
+						<Link
+							to="#"
+							onClick={(e) => {
+								window.location.href =
+									"https://dsipecpa.sharefile.com";
+								e.preventDefault();
+							}}
+						>
+							<button className="btn btn-sharefile" type="button">
+								ShareFile
+							</button>
+						</Link>
 						<Link to="/contact">
 							<button className="btn btn-dark" type="button">
 								Contact

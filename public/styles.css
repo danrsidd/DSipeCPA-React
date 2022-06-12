@@ -58,6 +58,29 @@ body {
           transform: scale(1.05);
 }
 
+.btn-sharefile {
+  height: 50px;
+  border: 2px solid #001f3f;
+  border-radius: 10px;
+  background-color: #1b8060;
+  color: white;
+  font-size: 1.1rem;
+  margin-top: 3px;
+  margin-left: 0;
+  margin-right: 10px;
+  -webkit-transition: 0.2s -webkit-transform ease-in-out;
+  transition: 0.2s -webkit-transform ease-in-out;
+  transition: 0.2s transform ease-in-out;
+  transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
+}
+
+.btn-sharefile:hover {
+  background-color: #001f3f;
+  border-color: #3692FA;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
 .navbar-collapse {
   text-align: center;
 }
