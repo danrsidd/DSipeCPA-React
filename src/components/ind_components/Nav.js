@@ -46,7 +46,7 @@ const Nav = () => {
 							}}
 						>
 							<button className="btn btn-smartvault" type="button">
-								Secure SmartVault Portal
+								SmartVault
 							</button>
 						</Link>
 						<Link to="/contact">
