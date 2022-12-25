@@ -41,12 +41,12 @@ const Nav = () => {
 							to="#"
 							onClick={(e) => {
 								window.location.href =
-									"https://dsipecpa.sharefile.com";
+									"https://dsipecpa.smartvault.com";
 								e.preventDefault();
 							}}
 						>
-							<button className="btn btn-sharefile" type="button">
-								ShareFile
+							<button className="btn btn-smartvault" type="button">
+								Secure SmartVault Portal
 							</button>
 						</Link>
 						<Link to="/contact">
