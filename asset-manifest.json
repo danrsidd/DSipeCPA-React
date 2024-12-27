@@ -1,31 +1,24 @@
 {
   "files": {
-    "main.js": "/static/js/main.4e19da84.chunk.js",
-    "main.js.map": "/static/js/main.4e19da84.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e01c72ab.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e01c72ab.js.map",
-    "static/js/2.5bc6c25e.chunk.js": "/static/js/2.5bc6c25e.chunk.js",
-    "static/js/2.5bc6c25e.chunk.js.map": "/static/js/2.5bc6c25e.chunk.js.map",
+    "main.js": "/static/js/main.80842f32.js",
+    "static/media/404_plane.jpg": "/static/media/404_plane.c2fbf866a7ef3801f555.jpg",
+    "static/media/tax-prep.jpg": "/static/media/tax-prep.ed637e2190e7e5cef4a6.jpg",
+    "static/media/nonprofit.jpeg": "/static/media/nonprofit.207863be437ac688511e.jpeg",
+    "static/media/tax-planning.jpg": "/static/media/tax-planning.d2b627bfda3f62f5993c.jpg",
+    "static/media/bookkeeping.jpeg": "/static/media/bookkeeping.c0244e980f28d05d3151.jpeg",
+    "static/media/office.jpeg": "/static/media/office.1306a5bd423f4ea18d01.jpeg",
+    "static/media/quickbooks.jpeg": "/static/media/quickbooks.4e8c7ea983d882efc514.jpeg",
+    "static/media/accountingServices.png": "/static/media/accountingServices.5313f55f2d5b55cf13ff.png",
+    "static/media/accounting.png": "/static/media/accounting.817bc77c989e72da22a3.png",
+    "static/media/taxServices.png": "/static/media/taxServices.573d7f64d9b4a88b88d2.png",
+    "static/media/payroll.jpeg": "/static/media/payroll.ebb275c9f796edc5ae4d.jpeg",
+    "static/media/emailUs.png": "/static/media/emailUs.0ad9a29291325db6fd69.png",
+    "static/media/callUs.png": "/static/media/callUs.5c7a6929190dc92267d1.png",
+    "static/media/new-business.jpeg": "/static/media/new-business.ec06db29d4f3f6e0f4d2.jpeg",
     "index.html": "/index.html",
-    "static/js/2.5bc6c25e.chunk.js.LICENSE.txt": "/static/js/2.5bc6c25e.chunk.js.LICENSE.txt",
-    "static/media/404_plane.c2fbf866.jpg": "/static/media/404_plane.c2fbf866.jpg",
-    "static/media/accounting.817bc77c.png": "/static/media/accounting.817bc77c.png",
-    "static/media/accountingServices.5313f55f.png": "/static/media/accountingServices.5313f55f.png",
-    "static/media/bookkeeping.c0244e98.jpeg": "/static/media/bookkeeping.c0244e98.jpeg",
-    "static/media/callUs.5c7a6929.png": "/static/media/callUs.5c7a6929.png",
-    "static/media/emailUs.0ad9a292.png": "/static/media/emailUs.0ad9a292.png",
-    "static/media/new-business.ec06db29.jpeg": "/static/media/new-business.ec06db29.jpeg",
-    "static/media/nonprofit.207863be.jpeg": "/static/media/nonprofit.207863be.jpeg",
-    "static/media/office.1306a5bd.jpeg": "/static/media/office.1306a5bd.jpeg",
-    "static/media/payroll.ebb275c9.jpeg": "/static/media/payroll.ebb275c9.jpeg",
-    "static/media/quickbooks.4e8c7ea9.jpeg": "/static/media/quickbooks.4e8c7ea9.jpeg",
-    "static/media/tax-planning.d2b627bf.jpg": "/static/media/tax-planning.d2b627bf.jpg",
-    "static/media/tax-prep.ed637e21.jpg": "/static/media/tax-prep.ed637e21.jpg",
-    "static/media/taxServices.573d7f64.png": "/static/media/taxServices.573d7f64.png"
+    "main.80842f32.js.map": "/static/js/main.80842f32.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.e01c72ab.js",
-    "static/js/2.5bc6c25e.chunk.js",
-    "static/js/main.4e19da84.chunk.js"
+    "static/js/main.80842f32.js"
   ]
 }
