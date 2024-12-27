@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Nav from "./ind_components/Nav";
 import Footer from "./ind_components/Footer";
 import Home from "./pages/Home";
@@ -24,69 +24,31 @@ const App = () => {
 		<Router basename={process.env.PUBLIC_URL}>
 			<Nav />
 			<ScrollToTop />
-			<Switch>
+			<Routes>
 				{/* About Page Start */}
-				<Route path="/about-the-company">
-					<About />
-				</Route>
-				{/* About Page End */}
+				<Route path="/about-the-company" element={<About />} />
 				{/* Contact Page Start */}
-				<Route path="/contact">
-					<Contact />
-				</Route>
-				{/* Contact Page End */}
+				<Route path="/contact" element={<Contact />} />
 				{/* Sitemap Page Start */}
-				<Route path="/sitemap">
-					<Sitemap />
-				</Route>
-				{/* Sitemap Page End */}
+				<Route path="/sitemap" element={<Sitemap />} />
 				{/* Privacy Page Start */}
-				<Route path="/privacy-policy">
-					<PrivacyPolicy />
-				</Route>
-				{/* Privacy Page End */}
+				<Route path="/privacy-policy" element={<PrivacyPolicy />} />
 				{/* Accounting Services Start */}
-				<Route path="/bookkeeping">
-					<Bookkeeping />
-				</Route>
-				<Route path="/payroll-services">
-					<Payroll />
-				</Route>
-				<Route path="/new-business-set-up">
-					<NewBusiness />
-				</Route>
-				<Route path="/non-profit-set-up">
-					<NonProfit />
-				</Route>
-				<Route path="/quick-books-services">
-					<QuickBooks />
-				</Route>
-				<Route path="/accounting-services">
-					<AccountingServices />
-				</Route>
-				{/* Accounting Services End */}
+				<Route path="/bookkeeping" element={<Bookkeeping />} />
+				<Route path="/payroll-services" element={<Payroll />} />
+				<Route path="/new-business-set-up" element={<NewBusiness />} />
+				<Route path="/non-profit-set-up" element={<NonProfit />} />
+				<Route path="/quick-books-services" element={<QuickBooks />} />
+				<Route path="/accounting-services" element={<AccountingServices />} />
 				{/* Tax Services Start */}
-				<Route path="/tax-planning">
-					<TaxPlanning />
-				</Route>
-				<Route path="/tax-preparation-2">
-					<TaxPreparation />
-				</Route>
-				<Route path="/tax-services">
-					<TaxServices />
-				</Route>
-				{/* Tax Services End */}
+				<Route path="/tax-planning" element={<TaxPlanning />} />
+				<Route path="/tax-preparation-2" element={<TaxPreparation />} />
+				<Route path="/tax-services" element={<TaxServices />} />
 				{/* Home Page Start */}
-				<Route exact path="/">
-					<Home />
-				</Route>
-				{/* Home Page End */}
+				<Route exact path="/" element={<Home />} />
 				{/* 404 Page Start */}
-				<Route path="*">
-					<Error />
-				</Route>
-				{/* 404 Page End */}
-			</Switch>
+				<Route path="*" element={<Error />} />
+			</Routes>
 			<Footer />
 		</Router>
 	);
