@@ -14,20 +14,20 @@ const Footer = () => {
 							Simplifying accounting so you can focus on what
 							matters.
 						</p>
-						<Link to="https://www.google.com/maps/place/Douglas+G.+Sipe+CPA,+LLC/@40.8951736,-74.281853,17z/data=!3m1!4b1!4m5!3m4!1s0x89c3adc088e87d95:0x704e0d3506a78625!8m2!3d40.8951736!4d-74.279659?shorturl=1" target="_blank">
+						<Link to="https://maps.app.goo.gl/Lk9KA2Bi1WwhsL1a9" target="_blank">
 							<div className="container footer-address-container">
 								<i className="fas fa-map-marked-alt"></i>
 								<br />
-								75 Lane Road
+								63 Beaverbrook Road
 								<br />
-								Suite 403
+								Suite 301
 								<br />
-								Fairfield, NJ 07004
+								Lincoln Park, NJ 07035
 							</div>
 						</Link>
 					</div>
 					<div className="col-md-4">
-						<p className="footer-title">Quick Links</p>
+						{/* <p className="footer-title">Quick Links</p> */}
 						<ul>
 							<li>
 								<Link to="/tax-planning">
@@ -71,9 +71,9 @@ const Footer = () => {
 						</ul>
 					</div>
 					<div className="col-md-4">
-						<p className="footer-title" id="quickLinks2">
+						{/* <p className="footer-title" id="quickLinks2">
 							Quick Links
-						</p>
+						</p> */}
 						<ul>
 							<li>
 								<Link to="/about-the-company">
