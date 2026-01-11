@@ -13,7 +13,7 @@ const Contact = () => {
 							Call Us at (908) 687-5558
 						</button>
 						<button className="action-btn" id="emailButton">
-							Email Us at doug@dsipecpa.co
+							Email Us at doug@dsipecpa.com
 						</button>
 					</div>
 					<img src={callUs} alt="" id="phone" />
