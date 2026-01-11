@@ -137,11 +137,6 @@ body {
   padding: 2%;
 }
 
-.action-btn:hover {
-  background-color: #001f3f;
-  border-color: #3692FA;
-}
-
 .headline-parent {
   margin-top: 20px;
   min-width: 100%;
@@ -508,11 +503,6 @@ footer #quickLinks2 {
   background-color: #007B8A;
 }
 
-.contact-buttons-container #callButton:hover {
-  background-color: #001f3f;
-  border-color: #007B8A;
-}
-
 .contact-buttons-container button {
   height: 100px;
   width: 120px;
@@ -528,11 +518,6 @@ footer #quickLinks2 {
   transition: 0.2s -webkit-transform ease-in-out;
   transition: 0.2s transform ease-in-out;
   transition: 0.2s transform ease-in-out, 0.2s -webkit-transform ease-in-out;
-}
-
-.contact-img-container img:hover {
-  -webkit-transform: scale(1.7);
-          transform: scale(1.7);
 }
 
 @media screen and (max-width: 767px) {

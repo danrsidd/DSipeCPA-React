@@ -9,47 +9,15 @@ const Contact = () => {
 			<div className="contact-parent">
 				<div className="contact-img-container">
 					<div className="contact-buttons-container">
-						<Link
-							to="#"
-							onClick={(e) => {
-								window.location = "tel:9086875558";
-								e.preventDefault();
-							}}
-						>
-							<button className="action-btn" id="callButton">
-								Call Us
-							</button>
-						</Link>
-						<Link
-							to="#"
-							onClick={(e) => {
-								window.location = "mailto:doug@dsipecpa.com";
-								e.preventDefault();
-							}}
-						>
-							<button className="action-btn" id="emailButton">
-								Email Us
-							</button>
-						</Link>
+						<button className="action-btn" id="callButton">
+							Call Us
+						</button>
+						<button className="action-btn" id="emailButton">
+							Email Us
+						</button>
 					</div>
-					<Link
-						to="#"
-						onClick={(e) => {
-							window.location = "tel:9086875558";
-							e.preventDefault();
-						}}
-					>
-						<img src={callUs} alt="" id="phone" />
-					</Link>
-					<Link
-						to="#"
-						onClick={(e) => {
-							window.location = "mailto:doug@dsipecpa.com";
-							e.preventDefault();
-						}}
-					>
-						<img src={emailUs} alt="" id="computer" />
-					</Link>
+					<img src={callUs} alt="" id="phone" />
+					<img src={emailUs} alt="" id="computer" />
 				</div>
 			</div>
 		</>
