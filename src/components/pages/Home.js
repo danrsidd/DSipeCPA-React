@@ -10,7 +10,7 @@ const Home = () => {
 			<Headline
 				title="Simplifying accounting so you can focus on what matters."
 				description="We're a trusted Certified Public Accounting firm that
-						manage all your tax and accounting needs."
+						manages all your tax and accounting needs."
 				imgSrc={accountingVector}
 			/>
 			<Qualities />
