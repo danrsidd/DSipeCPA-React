@@ -495,6 +495,17 @@ footer {
 
     .contact-buttons-container {
         display: flex;
+        flex-direction: column;
+
+        button {
+            font-size: 0.7rem;
+            width: 250px;
+            height: auto;
+            padding: 15px 10px;
+            white-space: normal;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
+        }
     }
 
     footer {

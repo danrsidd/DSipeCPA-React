@@ -10,10 +10,10 @@ const Contact = () => {
 				<div className="contact-img-container">
 					<div className="contact-buttons-container">
 						<button className="action-btn" id="callButton">
-							Call Us
+							Call Us at (908) 687-5558
 						</button>
 						<button className="action-btn" id="emailButton">
-							Email Us
+							Email Us at doug@dsipecpa.co
 						</button>
 					</div>
 					<img src={callUs} alt="" id="phone" />
