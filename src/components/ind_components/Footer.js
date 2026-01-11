@@ -14,6 +14,14 @@ const Footer = () => {
 							Simplifying accounting so you can focus on what
 							matters.
 						</p>
+						<div className="footer-contact">
+							<p>
+								<i className="fas fa-phone"></i> (908) 687-5558
+							</p>
+							<p>
+								<i className="fas fa-envelope"></i> doug@dsipecpa.co
+							</p>
+						</div>
 						<Link to="https://maps.app.goo.gl/Lk9KA2Bi1WwhsL1a9" target="_blank">
 							<div className="container footer-address-container">
 								<i className="fas fa-map-marked-alt"></i>
