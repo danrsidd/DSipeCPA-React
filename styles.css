@@ -537,12 +537,15 @@ footer #quickLinks2 {
             flex-direction: column;
   }
   .contact-buttons-container button {
-    font-size: 0.7rem;
-    width: 250px;
+    font-size: 0.65rem;
+    width: 90%;
+    max-width: 280px;
     height: auto;
     padding: 15px 10px;
     white-space: normal;
     word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
     overflow-wrap: break-word;
   }
   footer {
